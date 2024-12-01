@@ -47,11 +47,16 @@ SPENDWISE is a personal finance management tool designed to:
 
 ```plaintext
 SPENDWISE/
-├── main.py           # Application entry point
-├── gui/              # PyQt6 GUI components
-├── database/         # SQLite database files
-├── assets/           # Images, icons, and stylesheets
-└── README.md         # Documentation
+├── __pycache__/         # Python bytecode cache
+├── images/               # Project images
+├── app.py                # Main application logic
+├── database.py           # Database handling script
+├── expense.db            # SQLite database file
+├── login.py              # User login script
+├── main.py               # Application entry point
+├── Multi_Month_Expense_Report.html # Report template
+├── pie_chart.py          # Pie chart generation script
+└── register.py           # User registration script
 ```
 
 ---
@@ -76,6 +81,10 @@ SPENDWISE/
 pip install PyQt6 PyQt6-Charts PyQt6-QtSql sqlite3 hashlib
 ```
 
+### 🔌 **Recommended VS Code Extensions**
+1. SQLite Viewer
+2. SQLite3 Editor
+
 ---
 
 ## 📂 **Setup Instructions**
@@ -94,8 +103,9 @@ pip install PyQt6 PyQt6-Charts PyQt6-QtSql sqlite3 hashlib
   ```
 
 ### 📂 **Step 3: Run the Application**
-1. Navigate to the project directory.
-2. Run the main application:
+1. Install the recommended SQLite extensions for VS Code (SQLite Viewer, SQLite3 Editor).
+2. Navigate to the project directory.
+3. Run the main application:
    ```bash
    python main.py
    ```
