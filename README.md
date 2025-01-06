@@ -8,7 +8,9 @@ SPENDWISE is a personal finance management tool designed to:
 - ✅ Track and categorize expenses.
 - 📊 Provide visual insights into spending habits.
 - 🕒 Save time by automating expense tracking and reporting.
-
+---
+### Demo Images 📷
+![Demo](https://github.com/user-attachments/assets/d01a68d4-c94e-4b3d-8fe4-da1ce2f14b80)
 ---
 
 ## 🚀 **Current Progress (PDLC Stages)**
@@ -131,6 +133,6 @@ pip install PyQt6 PyQt6-Charts PyQt6-QtSql sqlite3 hashlib
 
 ---
 
-## 🎉 **Contributors**
+## 🎉 **Contributor**
 
 - **Samnang Yorn** 👨‍💻
